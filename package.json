@@ -12,7 +12,32 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {}
+    "@google-cloud/local-auth": "^2.1.0",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "google-search-results-nodejs": "^2.1.0",
+    "googleapis": "^105.0.0",
+    "https": "^1.0.0",
+    "jimp": "^0.22.10",
+    "lodash": "^4.17.21",
+    "module": "^1.2.5",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.2",
+    "mongoose-findorcreate": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.6",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "path": "^0.12.7",
+    "session": "^0.1.0",
+    "sharp": "^0.32.6"
+  }
 }

@@ -1,0 +1,285 @@
+
+
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.middle {
+  border-radius: 0px;
+
+}
+.top {
+ margin-bottom: -1px;;
+  border-top-left-radius:1 ;
+  border-top-right-radius: 1;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.bottom {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1
+  ;
+  border-top-left-radius: 0;
+}
+.edu-image{
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation *
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 5s steps(40, end),
+        blink-caret 1s step-end infinite;
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+  }
+.register{
+  font-weight: 500;
+  color:blanchedalmond;
+  font-family: Libre-Baskerville;
+}
+.heading-register{
+  color:darkorange
+}
+.heading-home{
+  color:yellow;
+}
+.gradient-background {
+  background: linear-gradient(to right,blue,purple,darkorange);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.navbar{
+  background-color: lightskyblue;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+.library{
+  width:30;
+  height:40
+}
+.lib-image{
+  width:70;
+  height:30em;
+}
+.special{
+  background-color: black;
+
+}
+.selector{
+  border-radius: 5px;
+  border: solid blue;
+  background-color: red;
+}
+.gradient-custom {
+ 
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(240,147,251,1), rgba(245,87,108,1))
+}
+.nav-gradient {
+ 
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(899,17,2,1),rgba(599,117,2,1))
+}
+.classes-gradient{
+ 
+   
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(103, 233, 67, 0.5), rgba(124, 56, 249, 0.5),rgba(249, 56, 56, 0.5))
+  }
+.heading{
+  color:darkorange
+
+}
+*{
+  box-sizing:border-box;
+ /* outline:1px solid ;*/
+}
+
+
+.wrapper-1{
+  width:100%;
+  height:100vh;
+  display: flex;
+flex-direction: column;
+background-color: purple;
+}
+.wrapper-2{
+  padding :30px;
+  text-align:center;
+}
+.h1-appreciate{
+    font-family: 'Kaushan Script', cursive;
+  font-size:4em;
+  letter-spacing:3px;
+  color:#5892FF ;
+  margin:0;
+  margin-bottom:20px;
+}
+.wrapper-2 p{
+  margin:0;
+  font-size:1.3em;
+  color:#aaa;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing:1px;
+  font-weight: bolder;
+  
+}
+.go-home{
+  color:#fff;
+  background:#5892FF;
+  border:none;
+  padding:10px 50px;
+  margin:30px 0;
+  border-radius:30px;
+  text-transform:capitalize;
+  box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+}
+.footer-like{
+  margin-top: auto; 
+  background:#D7E6FE;
+  padding:6px;
+  text-align:center;
+}
+.footer-like p{
+  margin:0;
+  padding:4px;
+  color:#5892FF;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing:1px;
+}
+.footer-like p a{
+  text-decoration:none;
+  color:#5892FF;
+  font-weight:600;
+}
+
+@media (min-width:360px){
+  .h1-appreciate{
+    font-size:4.5em;
+  }
+  .go-home{
+    margin-bottom:20px;
+  }
+}
+
+@media (min-width:600px){
+  .content{
+  max-width:1000px;
+  margin:0 auto;
+}
+  .wrapper-1{
+  height: initial;
+  max-width:620px;
+  margin:0 auto;
+  margin-top:50px;
+  box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
+}
+  
+}
+.col-container-id {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col-id {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+.fields{
+  color:green;
+  font-weight: bold;
+  font-style: italic;
+  font-display:inherit
+}
+.header-thanku{
+  background-color: darkgreen;
+  color:yellow
+}
+.footer-thanku{
+  background-color: darkgreen;
+  color:#D7E6FE
+}
+.info{
+  background-color: yellow;
+}
+.logo{
+  border-radius: 50%;
+  border-color: 1px solid red;
+  width:60px;
+  height:60px
+
+}
+.poster{
+  background-image: url("css/poster1.jpg");
+}
+/* .register{
+  background: linear-gradient(to center, rgba(67, 71, 155, 0.248), rgba(255, 56, 56, 0.5))
+} */
+.teacher{
+  width:130px;
+  height:150px;
+  border-radius: 50%;
+
+}
+.educlasses{
+  width:150px;
+  height:150px;
+}
